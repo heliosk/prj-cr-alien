@@ -1,0 +1,63 @@
+*,html{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+::-moz-selection {
+    background: #00B0A5;
+    color: #fff;
+}
+::selection {
+    background: #00B0A5;
+    color: #fff;
+}
+.container{
+    margin-top: 50px;
+}
+.jumbotron{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+                0 2px 4px 0 rgba(0,0,0,0.08);
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 80px;
+}
+.btn-select {
+    color: #495057;
+    background-color: #FFFFFF;
+    border-color: #CED4DA;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #00B0A5;
+    color: #fff;
+}
+
+/*NAVBAR*/
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+                0 2px 4px 0 rgba(0,0,0,0.08);
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*PAGINATION*/
+.page-item.active .page-link{
+    background-color: #6C757D;
+    border-color: #6C757D;
+}
+.page-link{
+    color: #6C757D;
+}
+
+/*TABLE*/
+.table{
+    background-color: #fff;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #FCFCFC;
+}
